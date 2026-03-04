@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Alvi\Desktop\00_GITHUB\Command-Center---2025\obj\Release\net8.0-windows\
+C:\Users\aaliaj\Desktop\00_CODING\Command-Center---2026\obj\Release\net8.0-windows\
 CommandCenter
 none
 false
@@ -12,8 +12,8 @@ TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 
 3-1328059648
 
-151703808551
-201-2019651638
+13-1596614880
+20612504978
 UI\SheetRenamerWindow.xaml;UI\ViewEditorWindow.xaml;UI\WorksetIsolationWindow.xaml;
 
 False

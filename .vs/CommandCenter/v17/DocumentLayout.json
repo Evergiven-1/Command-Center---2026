@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\",
+  "WorkspaceRootPath": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\bulksheetrenamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\bulksheetrenamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\bulkvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\bulkvieweditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\colorclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\colorclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\coloroncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\coloroncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\coloroncommandv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\coloroncommandv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\worksetisolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\worksetisolation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commands\\whalecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\commands\\whalecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\whalecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\ui\\worksetisolationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:ui\\worksetisolationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\commandcenter.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commandcenter.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\alvi\\desktop\\00_github\\command-center---2026\\test.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:test.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 251,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BulkViewEditor.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\BulkViewEditor.cs",
-              "RelativeDocumentMoniker": "Commands\\BulkViewEditor.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\BulkViewEditor.cs",
-              "RelativeToolTip": "Commands\\BulkViewEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "WhaleCall.cs",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\WhaleCall.cs",
+              "RelativeDocumentMoniker": "Commands\\WhaleCall.cs",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\WhaleCall.cs",
+              "RelativeToolTip": "Commands\\WhaleCall.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:36.204Z",
+              "WhenOpened": "2026-03-04T19:47:23.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-04T19:40:29.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ColorCLEAR.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorCLEAR.cs",
-              "RelativeDocumentMoniker": "Commands\\ColorCLEAR.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorCLEAR.cs",
-              "RelativeToolTip": "Commands\\ColorCLEAR.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:33.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ColorOnCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorOnCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\ColorOnCommand.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorOnCommand.cs",
-              "RelativeToolTip": "Commands\\ColorOnCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:32.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ColorOnCommandv2.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorOnCommandv2.cs",
-              "RelativeDocumentMoniker": "Commands\\ColorOnCommandv2.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\ColorOnCommandv2.cs",
-              "RelativeToolTip": "Commands\\ColorOnCommandv2.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:30.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorksetIsolation.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\WorksetIsolation.cs",
-              "RelativeDocumentMoniker": "Commands\\WorksetIsolation.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\WorksetIsolation.cs",
-              "RelativeToolTip": "Commands\\WorksetIsolation.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:26.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WhaleCall.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\WhaleCall.cs",
-              "RelativeDocumentMoniker": "Commands\\WhaleCall.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\WhaleCall.cs",
-              "RelativeToolTip": "Commands\\WhaleCall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:39:20.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WorksetIsolationWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\UI\\WorksetIsolationWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\WorksetIsolationWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\UI\\WorksetIsolationWindow.xaml.cs",
-              "RelativeToolTip": "UI\\WorksetIsolationWindow.xaml.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:38:17.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BulkSheetRenamer.cs",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\BulkSheetRenamer.cs",
-              "RelativeDocumentMoniker": "Commands\\BulkSheetRenamer.cs",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\Commands\\BulkSheetRenamer.cs",
-              "RelativeToolTip": "Commands\\BulkSheetRenamer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T02:37:57.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CommandCenter.addin",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\CommandCenter.addin",
-              "RelativeDocumentMoniker": "CommandCenter.addin",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\CommandCenter.addin",
-              "RelativeToolTip": "CommandCenter.addin",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000072|",
-              "WhenOpened": "2026-03-04T02:37:54.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-04T02:37:52.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "test.gitignore",
-              "DocumentMoniker": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\test.gitignore",
-              "RelativeDocumentMoniker": "test.gitignore",
-              "ToolTip": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\test.gitignore",
-              "RelativeToolTip": "test.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-04T02:37:51.66Z",
+              "WhenOpened": "2026-03-04T19:40:45.34Z",
               "EditorCaption": ""
             }
           ]

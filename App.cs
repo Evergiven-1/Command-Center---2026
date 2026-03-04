@@ -45,17 +45,17 @@ namespace CommandCenter
             if (panelCommand.AddItem(new PushButtonData(pgNameCommand01, pgNameCommand01, thisAssemblyPath, pgComBLOCK_Command1)) is PushButton commandButton1)
             {
                 Uri uri = new Uri(@"C:\Users\aaliaj\OneDrive - Amenta Emma Architects\Desktop\00_CODING\Command-Center---2025\Resources\UN_favicon.ico");
-                BitmapImage bitmapImage = new BitmapImage(uri);
+                //BitmapImage bitmapImage = new BitmapImage(uri);
                 commandButton1.ToolTip = "Strikegroup - Standing by"; // string played when cursor hangs over tab
-                commandButton1.LargeImage = bitmapImage;
+                //commandButton1.LargeImage = bitmapImage;
             }
             // Initialize Button 2
             if (panelCommand.AddItem(new PushButtonData(pgNameCommand02, pgNameCommand02, thisAssemblyPath, pgComBLOCK_Command2)) is PushButton commandButton2)
             {
                 Uri uri = new Uri(@"C:\Users\aaliaj\OneDrive - Amenta Emma Architects\Desktop\00_CODING\Command-Center---2025\Resources\Whaley.ico");
-                BitmapImage bitmapImage = new BitmapImage(uri);
+                //BitmapImage bitmapImage = new BitmapImage(uri);
                 commandButton2.ToolTip = "Poopoo Peepee"; // string played when cursor hangs over tab
-                commandButton2.LargeImage = bitmapImage;
+                //commandButton2.LargeImage = bitmapImage;
             }
 
             // close function

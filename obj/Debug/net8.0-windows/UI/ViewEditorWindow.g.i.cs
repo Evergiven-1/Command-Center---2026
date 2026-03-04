@@ -180,7 +180,7 @@ namespace CommandCenter.UI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CommandCenter;component/ui/vieweditorwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CommandCenter;V1.0.0.0;component/ui/vieweditorwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UI\ViewEditorWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

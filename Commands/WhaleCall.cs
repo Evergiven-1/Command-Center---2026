@@ -1,4 +1,4 @@
-#region Namespaces
+﻿#region Namespaces
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,7 +7,6 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-
 #endregion
 
 namespace CommandCenter.Commands
@@ -21,43 +20,40 @@ namespace CommandCenter.Commands
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Document doc = uidoc.Document;
 
+            // Use typeof() instead of GetExecutingAssembly() - more reliable in Revit
+            string assemblyLocation = typeof(WhaleCall).Assembly.Location;
+            string envPath = @"C:\Users\aaliaj\Desktop\00_CODING\Command-Center---2026\bin\Debug\net8.0-windows\.env";
+            
+            // Show us the path BEFORE trying to load
+            TaskDialog debugDialog = new TaskDialog("Debug - Path Check");
+            debugDialog.MainInstruction = "Looking for .env here:";
+            debugDialog.MainContent = envPath;
+            debugDialog.Show();
+
             try
             {
-                // URL for a website about whales
-                string url = "https://www.worldwildlife.org/species/whale";
+                DotNetEnv.Env.Load(envPath);
 
-                // Create a TaskDialog
-                TaskDialog dialog = new TaskDialog("Whale Information");
-                dialog.MainContent = "Do you want to visit the World Wildlife Fund website to learn about whales?";
-                dialog.MainInstruction = "Open Whale Website";
-                dialog.AddCommandLink(TaskDialogCommandLinkId.CommandLink1, "Yes, open the website");
-                dialog.AddCommandLink(TaskDialogCommandLinkId.CommandLink2, "No, cancel");
-                dialog.CommonButtons = TaskDialogCommonButtons.None;
+                string apiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY");
 
-                // Show the dialog and process the result
-                TaskDialogResult result = dialog.Show();
+                TaskDialog dialog = new TaskDialog("API Key Check");
+                dialog.MainInstruction = "Environment Variable Test";
 
-                if (result == TaskDialogResult.CommandLink1)
+                if (string.IsNullOrEmpty(apiKey))
                 {
-                    // Modern way to open a URL in the default browser
-                    ProcessStartInfo psi = new ProcessStartInfo
-                    {
-                        FileName = url,
-                        UseShellExecute = true
-                    };
-                    Process.Start(psi);
+                    dialog.MainContent = "API key not found! Check your .env file location.";
                 }
+                else
+                {
+                    dialog.MainContent = $"API key loaded!\n\nKey preview: {apiKey.Substring(0, 6)}...";
+                }
+
+                dialog.Show();
 
                 return Result.Succeeded;
             }
-            catch (Autodesk.Revit.Exceptions.OperationCanceledException)
-            {
-                // User canceled the operation
-                return Result.Cancelled;
-            }
             catch (Exception ex)
             {
-                // Handle any other exceptions
                 message = ex.Message;
                 return Result.Failed;
             }
