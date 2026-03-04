@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>warnings</Nullable>
+		<UseWPF>true</UseWPF>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<RootNamespace>CommandCenter</RootNamespace>
+		<AssemblyName>CommandCenter</AssemblyName>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<NoWarn>1701;1702;MSB3277</NoWarn>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<NoWarn>1701;1702;MSB3277</NoWarn>
+	</PropertyGroup>
+	<Target Name="DeleteAddinAndDll" AfterTargets="Clean">
+		<Delete ContinueOnError="true" Files="$(AppData)\Autodesk\REVIT\Addins\2025\CommandCenter.addin" />
+		<Delete ContinueOnError="true" Files="$(AppData)\Autodesk\REVIT\Addins\2025\CommandCenter.dll" />
+	</Target>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<!-- Define Revit addins folder path -->
+		<PropertyGroup>
+			<RevitAddinsFolder>$(AppData)\Autodesk\REVIT\Addins\2025</RevitAddinsFolder>
+		</PropertyGroup>
+
+		<!-- Create target directory if it doesn't exist -->
+		<MakeDir Directories="$(RevitAddinsFolder)" Condition="!Exists('$(RevitAddinsFolder)')" />
+
+		<!-- Copy the .addin file(s) -->
+		<Message Text="Copying .addin files..." Importance="high" />
+		<Copy SourceFiles="$(ProjectDir)CommandCenter.addin" DestinationFolder="$(RevitAddinsFolder)" SkipUnchangedFiles="true" ContinueOnError="true" />
+
+		<!-- Copy the .dll file(s) -->
+		<Message Text="Copying .dll files..." Importance="high" />
+		<Copy SourceFiles="$(ProjectDir)$(OutputPath)CommandCenter.dll" DestinationFolder="$(RevitAddinsFolder)" SkipUnchangedFiles="true" ContinueOnError="true" />
+	</Target>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="RevitAPI">
+			<HintPath>$(ProgramW6432)\Autodesk\Revit 2025\RevitAPI.dll</HintPath>
+		</Reference>
+		<Reference Include="RevitAPIUI">
+			<HintPath>$(ProgramW6432)\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	  <Folder Include="Utilities\" />
+	</ItemGroup>
+</Project>

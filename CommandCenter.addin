@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application CommandCenter</Name>
+    <Assembly>CommandCenter.dll</Assembly>
+    <FullClassName>CommandCenter.App</FullClassName>
+    <ClientId>5e8097d1-4571-40eb-bc77-f7db5865c79b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
