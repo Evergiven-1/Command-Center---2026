@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2025\\CommandCenter.csproj",
+      "projectUniqueName": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\CommandCenter.csproj",
       "projectName": "CommandCenter",
-      "projectPath": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2025\\CommandCenter.csproj",
+      "projectPath": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\CommandCenter.csproj",
       "packagesPath": "C:\\Users\\Alvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2025\\obj\\",
+      "outputPath": "C:\\Users\\Alvi\\Desktop\\00_GITHUB\\Command-Center---2026\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

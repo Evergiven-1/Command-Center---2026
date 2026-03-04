@@ -1,4 +1,5 @@
-# Command Center - 2025
+# Command Center - 2026
+A new center point for API studies for Revit - 2026 and Beyond
 
 ## Overview
 A collection of utility tools built with the Revit API to enhance workflow and productivity in Revit 2024, 2025 and 2026
@@ -12,11 +13,11 @@ Started officially in 2025, an adaption of studies from a few months back with t
 
 ## Technologies
 - C#
-- Revit API 2025
+- Revit API 2026
 - .NET Framework
 - Claude
 
 ## Goals
 - Integrate AI in more sensible way through deliberate tool set
-- Hopefully MCP integration for more generalist approach (in addtion to the above)
+- Integrate MCP for more generalist approach (in addtion to the above)
 - Clean Graphics and Interface for Firm Branding
