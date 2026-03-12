@@ -749,13 +749,6 @@
             The vendor of the Add-in.
             </summary>
         </member>
-        <member name="P:Autodesk.RevitAddInsManager.AddInItemSettings.IsLoadOptionControlledByAdmin">
-            <summary>
-            True if this item is controlled by Administrator settings, false otherwise.
-            This property is valid only if these settings are merged with Administrator restrictions.
-            To get merged settings use <see cref="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.GetAddInsManagerSettingsWithAdminRestrictions"/>.
-            </summary>
-        </member>
         <member name="M:Autodesk.RevitAddInsManager.AddInItemSettings.#ctor">
             <summary>
             Creates a new instance of <see cref="T:Autodesk.RevitAddInsManager.AddInItemSettings"/>.
@@ -775,16 +768,9 @@
             Not all Add-ins can be disabled, some Add-ins installed with Revit will always be loaded.
             </summary>
         </member>
-        <member name="P:Autodesk.RevitAddInsManager.AddInsManagerSettings.AreAllAddInsDisabledByAdmin">
-            <summary>
-            True if loading of all Add-ins is disabled by Administrator, false otherwise.
-            This property is valid only if these settings are merged with Administrator restrictions.
-            To get merged settings use <see cref="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.GetAddInsManagerSettingsWithAdminRestrictions"/>.
-            </summary>
-        </member>
         <member name="P:Autodesk.RevitAddInsManager.AddInsManagerSettings.DisableAllAddIns">
             <summary>
-            True to disable loading of all Add-ins that are allowed to be disabled, false otherwise.
+            True to disable loading of all Add-ins that are allowed to be disabled, false otherwise. 
             </summary>
         </member>
         <member name="P:Autodesk.RevitAddInsManager.AddInsManagerSettings.AddInItemSettings">
@@ -797,18 +783,11 @@
             Returns <see cref="T:Autodesk.RevitAddInsManager.AddInsManagerSettings"/> for the current Windows user. 
             </summary>
         </member>
-        <member name="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.GetAddInsManagerSettingsWithAdminRestrictions">
-            <summary>
-            Gets <see cref="T:Autodesk.RevitAddInsManager.AddInsManagerSettings"/> with Administrator restrictions override if such restrictions exist.
-            </summary>
-            <returns>Returns <see cref="T:Autodesk.RevitAddInsManager.AddInsManagerSettings"/> with Administrator restrictions.</returns>
-        </member>
         <member name="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.GetAllAddInItemSettings">
             <summary>
-            Gets all <see cref="T:Autodesk.RevitAddInsManager.AddInItemSettings"/>.
+            Returns all <see cref="T:Autodesk.RevitAddInsManager.AddInItemSettings"/>.
             </summary>
             <remarks>Returned objects can be used to change the settings of Add-in items. To save changes call <see cref="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.Save"/>.</remarks>
-            <returns>Returns all <see cref="T:Autodesk.RevitAddInsManager.AddInItemSettings"/>.</returns>
         </member>
         <member name="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.GetAddInItemSettings(System.Guid)">
             <summary>
@@ -833,176 +812,6 @@
             Saves current <see cref="T:Autodesk.RevitAddInsManager.AddInsManagerSettings"/>.
             </summary>
         </member>
-        <member name="M:Autodesk.RevitAddInsManager.AddInsManagerSettings.ApplyAdminSettings">
-            <summary>
-            Applies Administrator settings of Add-Ins control if such settings exist.
-            The Administrator settings are treated with higher priority and will override values of the Add-Ins Manager settings in case of different states.
-            </summary>
-        </member>
-        <member name="T:Autodesk.Admin.AddInItemAdminLoadOptions">
-            <summary>
-            Administrator options for Add-in item load control.
-            </summary>
-        </member>
-        <member name="F:Autodesk.Admin.AddInItemAdminLoadOptions.ManagedByUser">
-            <summary>
-            Allows the user to control the loading of the Add-in item using the Add-Ins Manager.
-            </summary>
-        </member>
-        <member name="F:Autodesk.Admin.AddInItemAdminLoadOptions.AlwaysEnabled">
-            <summary>
-            Always load the Add-in item regardless of the Add-Ins Manager settings.
-            </summary>
-        </member>
-        <member name="F:Autodesk.Admin.AddInItemAdminLoadOptions.AlwaysDisabled">
-            <summary>
-            Disallow loading of the Add-in item regardless of the Add-Ins Manager settings.
-            </summary>
-        </member>
-        <member name="T:Autodesk.Admin.AddInItemAdminSettings">
-            <summary>
-            This class represents the settings of Revit Add-ins item which is controlled by the Administrator.
-            </summary>
-        </member>
-        <member name="P:Autodesk.Admin.AddInItemAdminSettings.AddInId">
-            <summary>
-            The Id for the Add-in item.
-            </summary>
-        </member>
-        <member name="P:Autodesk.Admin.AddInItemAdminSettings.LoadOption">
-            <summary>
-            The load option of the Add-in item defined by Administrator.
-            </summary>
-        </member>
-        <member name="M:Autodesk.Admin.AddInItemAdminSettings.#ctor">
-            <summary>
-            Creates a new instance of <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/>.
-            </summary>
-        </member>
-        <member name="T:Autodesk.Admin.AddInManifestAdminSettings">
-            <summary>
-            This class represents the settings of a single Revit Add-ins manifest which is controlled by the Administrator.
-            </summary>
-        </member>
-        <member name="P:Autodesk.Admin.AddInManifestAdminSettings.Path">
-            <summary>
-            The full path to the manifest file controlled by these settings.
-            </summary>
-        </member>
-        <member name="P:Autodesk.Admin.AddInManifestAdminSettings.AddInItemAdminSettings">
-            <summary>
-            The list of manifest Add-in items settings controlled by the Administrator.
-            </summary>
-            <remarks>If the Add-in item from the manifest is not defined in this list, it means that there is no Administrator restriction for it and it will be controlled through the Add-ins manager.</remarks>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.#ctor">
-            <summary>
-            Default constructor for deserialization.
-            </summary>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.#ctor(System.String)">
-            <summary>
-            Creates a new instance of <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.
-            </summary>
-            <param name="path">The full path to the manifest file controlled by these settings.</param>
-            <remarks>Created <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/> object can be used to configure Administrator settings for the Add-in manifest. To add these settings to <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/> call <see cref = "M:Autodesk.Admin.AddInsManagerAdminSettings.AddAddInManifestAdminSettings(Autodesk.Admin.AddInManifestAdminSettings)" />.</remarks>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.CreateAddInManifestAdminSettings(System.String)">
-            <summary>
-            Creates a new instance of <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.
-            </summary>
-            <param name="path">The full path to the manifest file controlled by these settings.</param>
-            <remarks>Created <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/> object can be used to configure Administrator settings for the Add-in manifest. To add these settings to <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/> call <see cref = "M:Autodesk.Admin.AddInsManagerAdminSettings.AddAddInManifestAdminSettings(Autodesk.Admin.AddInManifestAdminSettings)" />.</remarks>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.GetAddInItemAdminSettings(System.Guid)">
-            <summary>
-            Returns <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> if there are settings for the Add-in identified by the Guid, <see langword="null"/> otherwise.
-            </summary>
-            <param name="addInId">The ID of the Add-in item.</param>
-            <returns>Returns <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> if such settings exist, <see langword="null"/> otherwise.</returns>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.GetAllAddInItemAdminSettings">
-            <summary>
-            Gets all <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/>.
-            </summary>
-            <returns>Returns all <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/>.</returns>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.CreateAddInItemAdminSettings(System.Guid)">
-            <summary>
-            Creates new <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> for an Add-in with the specified Guid and adds it to this <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/> settings.
-            </summary>
-            <param name="guid">The Guid of the Add-in item.</param>
-            <returns>Returns <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> which was added to this <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/> settings.</returns>
-            <exception cref="T:System.InvalidOperationException">Throws when <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> for the specified Guid is already present.</exception>
-            <remarks>Returned <see cref="T:Autodesk.Admin.AddInItemAdminSettings"/> object can be used to configure Administrator settings for the Add-in item. To save all Administrator settings call <see cref = "M:Autodesk.Admin.AddInsManagerAdminSettings.Save(System.String)" />.</remarks>
-        </member>
-        <member name="M:Autodesk.Admin.AddInManifestAdminSettings.RemoveAddInItemAdminSettings(Autodesk.Admin.AddInItemAdminSettings)">
-            <summary>
-            Removes input settings from the current <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.
-            </summary>
-            <param name="settings">Settings to remove.</param>
-            <exception cref="T:System.InvalidOperationException">Throws when the input settings can not be found in this <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.</exception>
-        </member>
-        <member name="T:Autodesk.Admin.AddInsManagerAdminSettings">
-            <summary>
-            This class represents the settings of Revit Add-ins manager which can be controlled by the Administrator.
-            </summary>
-        </member>
-        <member name="P:Autodesk.Admin.AddInsManagerAdminSettings.DisableAllAddIns">
-            <summary>
-            True to disable loading of all Add-ins that are allowed to be disabled, false otherwise.
-            Add-in items that are defined by Administrator as <see cref="F:Autodesk.Admin.AddInItemAdminLoadOptions.AlwaysEnabled"/> will still be loaded.
-            </summary>
-            <remarks>Not all Add-ins can be disabled, some Add-ins installed with Revit will always be loaded.</remarks>
-        </member>
-        <member name="P:Autodesk.Admin.AddInsManagerAdminSettings.AddInManifestAdminSettings">
-            <summary>
-            The collection of Add-ins manifests controlled by the Administrator.
-            </summary>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.#ctor">
-            <summary>
-            Creates a new instance of <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/>.
-            </summary>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.CreateAddInsManagerAdminSettings">
-            <summary>
-            Creates a new instance of <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/>.
-            </summary>
-            <remarks>Created <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/> object can be used to configure Administrator settings for Add-ins Manager. To save these settings call <see cref="M:Autodesk.Admin.AddInsManagerAdminSettings.Save(System.String)"/>.</remarks>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.Get">
-            <summary>
-            Returns <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/> if such settings exist, <see langword="null"/> otherwise.
-            </summary>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.GetAllAddInManifestAdminSettings">
-            <summary>
-            Gets all <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.
-            </summary>
-            <returns>Returns all <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.</returns>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.AddAddInManifestAdminSettings(Autodesk.Admin.AddInManifestAdminSettings)">
-            <summary>
-            Adds new <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/>.
-            </summary>
-            <param name="settings">New <see cref="T:Autodesk.Admin.AddInManifestAdminSettings"/> to add.</param>
-            <exception cref="T:System.ArgumentNullException">Throws when the input settings are <see langword="null"/>.</exception>
-            <exception cref="T:System.InvalidOperationException">Throws when the input settings are already managed by this <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/>.</exception>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.RemoveAddInManifestAdminSettings(Autodesk.Admin.AddInManifestAdminSettings)">
-            <summary>
-            Removes input settings from the current <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/>.
-            </summary>
-            <param name="settings">Settings to remove.</param>
-            <exception cref="T:System.InvalidOperationException">Throws when the input settings can not be found in this <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/>.</exception>
-        </member>
-        <member name="M:Autodesk.Admin.AddInsManagerAdminSettings.Save(System.String)">
-            <summary>
-            Saves current <see cref="T:Autodesk.Admin.AddInsManagerAdminSettings"/> as AdminSettings.json to a folder specified. If the file already exists – override it.
-            </summary>
-            <param name="folderPath">Path to the output folder.</param>
-        </member>
         <member name="T:RevitAddInUtilty.Utility.AddInsManagerUtility">
             <summary>
             This class contains the set of utilities to enable/disable loading of Add-ins registered with Revit.
@@ -1010,7 +819,7 @@
         </member>
         <member name="P:RevitAddInUtilty.Utility.AddInsManagerUtility.JournalPlaybackDirectory">
             <summary>
-            Path to Journal playback folder if Revit is in Journal playback mode, empty string otherwise.
+            
             </summary>
         </member>
         <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.GetAddInsManagerSettings">
@@ -1018,52 +827,19 @@
             Returns AddIns Manager settings.
             </summary>
         </member>
-        <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.GetAddInsSettingsWithAdminRestrictions">
-            <summary>
-            Returns Add-Ins Manager settings with Admin restrictions override if such restrictions exist.
-            </summary>
-        </member>
-        <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.GetAddInsSettings(System.Boolean)">
-            <summary>
-            Returns Add-Ins Manager settings.
-            </summary>
-            <param name="includeAdminSettings">If true Admin settings will be applied and override the returned object, otherwise only user settings will be returned.</param>
-        </member>
         <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.SaveAddInsSettings(Autodesk.RevitAddInsManager.AddInsManagerSettings)">
             <summary>
             Saves AddIns settings.
             </summary>
         </member>
-        <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.GetAddInsSettingsFilePath(System.Boolean)">
+        <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.GetAddInsSettingsFilePath">
             <summary>
             Returns path to the AddInsSettings file.
             </summary>
-            <param name="createMissingDirectories">True to create missing directories if they don't exist, false otherwise.</param>
-            <returns>Path to the AddInsSettings.json file.</returns>
         </member>
         <member name="M:RevitAddInUtilty.Utility.AddInsManagerUtility.IsInJournalPlaybackMode">
             <summary>
             Returns true if the code is being executed during regression journal playback, false otherwise.
-            </summary>
-        </member>
-        <member name="T:RevitAddInUtilty.Utility.AdminSettingsUtility">
-            <summary>
-            The set of utilities to work with Admin settings storage.
-            </summary>
-        </member>
-        <member name="M:RevitAddInUtilty.Utility.AdminSettingsUtility.GetAddInsManagerAdminSettings">
-            <summary>
-            Returns AddInsManagerAdminSettings object if such settings exist, null otherwise.
-            </summary>
-        </member>
-        <member name="M:RevitAddInUtilty.Utility.AdminSettingsUtility.SaveAddInsManagerAdminSettings(Autodesk.Admin.AddInsManagerAdminSettings,System.String)">
-            <summary>
-            Saves AddInsManagerAdminSettings object to the input file.
-            </summary>
-        </member>
-        <member name="M:RevitAddInUtilty.Utility.AdminSettingsUtility.GetAdminSettingsFilePath">
-            <summary>
-            Returns path to the AdminSettings file.
             </summary>
         </member>
     </members>

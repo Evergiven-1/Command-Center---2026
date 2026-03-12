@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\BulkSheetRenamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\BulkSheetRenamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\FillPatternReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\ColorCLEAR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\ColorCLEAR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\WhaleCall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\WhaleCall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 251,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BulkSheetRenamer.cs",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\BulkSheetRenamer.cs",
+              "RelativeDocumentMoniker": "Commands\\BulkSheetRenamer.cs",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\BulkSheetRenamer.cs",
+              "RelativeToolTip": "Commands\\BulkSheetRenamer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:25:30.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FillPatternReader.cs",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternReader.cs",
+              "RelativeDocumentMoniker": "Commands\\FillPatternReader.cs",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternReader.cs",
+              "RelativeToolTip": "Commands\\FillPatternReader.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:24:53.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColorCLEAR.cs",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\ColorCLEAR.cs",
+              "RelativeDocumentMoniker": "Commands\\ColorCLEAR.cs",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\ColorCLEAR.cs",
+              "RelativeToolTip": "Commands\\ColorCLEAR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:21:08.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WhaleCall.cs",
+              "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\WhaleCall.cs",
+              "RelativeDocumentMoniker": "Commands\\WhaleCall.cs",
+              "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\WhaleCall.cs",
+              "RelativeToolTip": "Commands\\WhaleCall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:20:50.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
