@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\commands\\fillpatterncomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\fillpatterncomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\commands\\fillpatternreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\fillpatternreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|c:\\users\\aaliaj\\desktop\\00_coding\\command-center---2026\\commands\\fillpatterncomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A408636-D2B5-4B50-8DB2-9AEA54E47A10}|CommandCenter.csproj|solutionrelative:commands\\fillpatterncomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedHeight": 251,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FillPatternComp.cs",
               "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternComp.cs",
               "RelativeDocumentMoniker": "Commands\\FillPatternComp.cs",
               "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternComp.cs",
               "RelativeToolTip": "Commands\\FillPatternComp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T13:36:13.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FillPatternReader.cs",
               "DocumentMoniker": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternReader.cs",
               "RelativeDocumentMoniker": "Commands\\FillPatternReader.cs",
               "ToolTip": "C:\\Users\\aaliaj\\Desktop\\00_CODING\\Command-Center---2026\\Commands\\FillPatternReader.cs",
               "RelativeToolTip": "Commands\\FillPatternReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T13:26:26.337Z",
               "EditorCaption": ""
