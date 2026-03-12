@@ -11,7 +11,7 @@ using System.Windows.Media;
 namespace CommandCenter.Commands
 {
     [Transaction(TransactionMode.Manual)]
-    public class ListActiveFillPatterns : IExternalCommand
+    public class FillPatternsListComp : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
